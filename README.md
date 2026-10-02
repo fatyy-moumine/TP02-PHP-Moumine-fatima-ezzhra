@@ -16,3 +16,10 @@ Group: Gr_02
 -Exercice 08
 -Exercice 09
 -Exercice 10
+
+##Exercice 02:
+Question 5: les deux variables $note et $Note sont différentes car:
+-les nom de variable en PHP est sensible a la casse $note!=$Note
+
+les noms valides sont:
+-$a ,$_a ,$a_a ,$AAA ,$a1
