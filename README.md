@@ -23,3 +23,12 @@ Question 5: les deux variables $note et $Note sont différentes car:
 
 les noms valides sont:
 -$a ,$_a ,$a_a ,$AAA ,$a1
+
+## Exercice 04:
+Question 6:echo et var_dump() n'affichent pas les booleenne de la meme maniere:
+echo true affiche 1
+echo false n'affiche rien
+var_dump(true) affiche bool(true)
+var_dump(false) affiche bool(false)
+
+

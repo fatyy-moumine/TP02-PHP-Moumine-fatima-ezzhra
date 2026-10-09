@@ -15,9 +15,33 @@ echo "<pre>".var_dump($v5)."</pre>";
 echo "<pre>".var_dump($v6)."</pre>";
 
 //Question3//
-echo 'Conversion de "42" en entier :'.(int)"42"."<br>";
-echo "Conversion de 15.8 en entier :".(int)15.8."<br>";
-echo "Conversion de 42 en chaine :".(string)42 ."<br>";
+echo "<p>Conversion de '42' en entier :</p>";
+var_dump((int)"42");
+
+echo "<p>Conversion de 15.8 en entier :</p>";
+var_dump((int)15.8);
+
+echo "<p>Conversion de 42 en chaine :</p>";
+var_dump((string)42);
+
+//Question4//
+echo "<p>affichage de 'true' avec echo:".true."</p>";
+echo "<p>affichage de 'false' avec echo:".false."</p>";
+
+echo "<p>affichage de 'true' avec var_dump():</p>";
+var_dump(true);
+echo "<p>affichage de 'false' avec var_dump():</p>";
+var_dump(false);
+
+//Question5//
+// echo "convertion de 0 en booléen:".(bool)0 ."<br>";
+// echo "convertion de ;0' en booléen:".(bool)"0" ."<br>";
+// echo "convertion de 'PHP' en booléen:".(bool)"PHP";
+
+
+
+
+
 
 
 
