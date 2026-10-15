@@ -1,49 +1,42 @@
-<?php 
-$numeroMois = 3
-switch($numeroMois){
+<?php
+$numeroMois = 3;
+switch ($numeroMois) {
     case 1:
-        echo"janvier";
+        echo "janvier";
         break;
     case 2:
-        echo"fevrier";
+        echo "fevrier";
         break;
     case 3:
-        echo"mars";
+        echo "mars";
         break;
     case 4:
-        echo"avril";
+        echo "avril";
         break;
     case 5:
-        echo"mai";
+        echo "mai";
         break;
     case 6:
-        echo"juin";
+        echo "juin";
         break;
     case 7:
-        echo"juiller";
+        echo "juillet";
         break;
     case 8:
-        echo"aout";
+        echo "août";
         break;
     case 9:
-        echo"sebtembre";
+        echo "septembre";
         break;
     case 10:
-        echo"octobre";
+        echo "octobre";
         break;
     case 11:
-        echo"novenmbre";
+        echo "novembre";
         break;
     case 12:
-        echo"decembre";
+        echo "decembre";
         break;
-        default:
-        echo"Numéro de mois invalide";
-    
+    default:
+        echo "Numero de mois invalide";
 }
-
-
-
-
-
-?>

@@ -1,10 +1,7 @@
 <?php 
-//Question1//
-$moyenne=20;
-//Question2//
+$moyenne=21;
 if($moyenne<0 || $moyenne>20):
     echo"Note invalide";
-//Question3//
 elseif($moyenne<10):
     echo "Non validé ";
 elseif($moyenne<12):
@@ -19,7 +16,7 @@ else:
     echo"Très bien";
 endif;
 
-//Question4//
+
 
 
 

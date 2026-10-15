@@ -5,17 +5,6 @@ Nom:Moumine
 prenom:fatima ezzahra
 Group: Gr_02
 
-##Exercices:
--Exercice 01
--Exercice 02
--Exercice 03
--Exercice 04
--Exercice 05
--Exercice 06
--Exercice 07
--Exercice 08
--Exercice 09
--Exercice 10
 
 ##Exercice 02:
 Question 5: les deux variables $note et $Note sont différentes car:
@@ -24,11 +13,23 @@ Question 5: les deux variables $note et $Note sont différentes car:
 les noms valides sont:
 -$a ,$_a ,$a_a ,$AAA ,$a1
 
-## Exercice 04:
+##Exercice 04:
 Question 6:echo et var_dump() n'affichent pas les booleenne de la meme maniere:
 echo true affiche 1
 echo false n'affiche rien
 var_dump(true) affiche bool(true)
 var_dump(false) affiche bool(false)
+
+##Exercice 05:
+Question 4et 5:
+valeur a tester:-1 --> Note invalide
+valeur a tester:9 --> Non valide
+valeur a tester:10 --> Passable
+valeur a tester:12 --> Assez bien
+valeur a tester:14 -->bien 
+valeur a tester:16 --> tres bein
+valeur a tester:21 -->  Note invalide
+
+
 
 
